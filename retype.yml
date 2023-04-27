@@ -1,0 +1,10 @@
+input: .
+output: ./build
+url: mystudentdashboard.github.io
+branding:
+  title: Google Docs
+links:
+- text: Getting Started
+  link: https://retype.com/guides/getting-started/
+footer:
+  copyright: "&copy; Copyright Art Class {{ year }}. All rights reserved."
