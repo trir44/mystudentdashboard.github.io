@@ -3,8 +3,8 @@ output: .retype
 url: mystudentdashboard.github.io
 
 branding:
-  logo: /static/msd-light.svg
-  logoLight: /static/msd-dark.svg
+  logo: /assets/msd-light.svg
+  logoLight: /assets/msd-dark.svg
   label: v2.4
 
 meta:
