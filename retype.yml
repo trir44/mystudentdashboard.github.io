@@ -1,10 +1,24 @@
-input: .
-output: ./build
+input: ./
+output: .retype
 url: mystudentdashboard.github.io
+
 branding:
-  title: Google Docs
+  logo: /static/msd-light.svg
+  logoLight: /static/msd-dark.svg
+  label: v2.4
+
+meta:
+  title: " - Generate, publish, and share documentation"
+
+edit:
+  repo: github.com/mystudentdashboard/mystudentdashboard.github.io
+
+editor:
+  enabled: false
+
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+  - text: Home
+    link: /README.md
+    icon: home
 footer:
-  copyright: "&copy; Copyright Art Class {{ year }}. All rights reserved."
+  copyright: © Copyright {{ year }} Art Class Studios. All content in this page are copyright their respective owners.
